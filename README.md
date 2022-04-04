@@ -1,4 +1,6 @@
-# Qrscaner
+# Angular QR Scanner
+
+Angular QR Code Scanner based on [Cosmo Wolfe's javascript port](https://github.com/cozmo/jsqr).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 

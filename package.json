@@ -1,6 +1,8 @@
 {
-  "name": "qrscaner",
-  "version": "0.0.0",
+  "name": "ng-qr-scanner",
+  "version": "1.0.0",
+  "description": "Angular example QR scanner",
+  "repository": "https://github.com/ruslan10/angular-qr-scaner",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +10,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "author": "Ruslan Medov (https://github.com/ruslan10)",
+  "license": "MIT",
   "dependencies": {
     "@angular/animations": "^13.3.1",
     "@angular/common": "^13.3.1",
