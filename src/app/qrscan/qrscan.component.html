@@ -1,0 +1,20 @@
+<button *ngIf="!scanning && !this.scanCode" type="button" title="start scan" class="button top-btn" (click)="scan()">
+  <i class="material-icons">qr_code_scanner</i>
+</button>
+<button *ngIf="scanning" type="button" title="stop" class="button top-btn stop-scan" (click)="stopScan()">
+  <i class="material-icons">stop_circle</i>
+</button>
+<br/>
+
+<div class="qr-scan-code" *ngIf="this.scanCode">
+  <h3>QR Code</h3>
+  <p>{{this.scanCode}}</p>
+  <div class="actions">
+    <button type="button" class="button" (click)="this.scanCode = null">Close</button>
+  </div>
+</div>
+
+<div class="qr-wrapper" #qrWrapper>
+  <div class="scanner" #scanner></div>
+</div>
+
